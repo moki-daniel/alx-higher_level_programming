@@ -1,6 +1,8 @@
-#!/usr/bin/env python3
-add = __import__('10-add').add
+#!/usr/bin/python3
+# 11-pow.py
+# Brennan D Baraban <375@holbertonschool.com>
 
-print(add(1, 2))
-print(add(98, 0))
-print(add(100, -2))
+
+def pow(a, b):
+    """Return a to the power of b."""
+    return (a ** b)
